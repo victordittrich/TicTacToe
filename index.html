@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="container">
+    <div class="eu">
+    <h1>by @vituhds</h1>
+    <a href="https://twitter.com/vituhds" target="_blank"><img src="images/tt.png" height="30px"></a>
+    <a href="https://www.instagram.com/vituhds/" target="_blank"><img src="images/insta.png" height="30px"></a>
+</div>
+    <div id="mostrador">
+        <h1 id="txt">Vez do jogador: </h1>
+        <img id="img1" height="50px" src="images/">
+    </div>
+
+    <div class="tabuleiro">
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+    </div>
+    <input type="button" value="AGAIN" onClick="window.location.reload()">
+</div>
+<script src="game.js"></script>
 </body>
 </html>
