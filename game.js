@@ -86,7 +86,8 @@ async function verificarVencedor(){
         await sleep(50);
         var texto = document.getElementById("txt");
         var player = document.querySelectorAll("div#mostrador img")[0];
-        
+        const img = document.querySelector('#img1')
+        img.classList.add('.off')
         player.setAttribute("src","images/null.png")
         texto.innerHTML = "O vencedor é: " + vencedor;
         var player = document.querySelectorAll("div#mostrador img")[0];
