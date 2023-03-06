@@ -18,7 +18,7 @@ function atualizaMostrador(){
         player.setAttribute("src","images/x.png")
     } else {
         var player = document.querySelectorAll("div#mostrador img")[0];
-        player.setAttribute("src","images/o.png")
+        player.setAttribute("src","images/O.png")
 
     }
 }
