@@ -81,3 +81,8 @@ input:hover{
     margin-left:15px;
     margin-top: 5px;
 }
+
+.off{
+    visibility: hidden;
+    opacity: 0;
+}
