@@ -42,7 +42,7 @@ function inicializarEspacos(){
 
                 } else{
 
-                    this.innerHTML = "<img src='images/o.png' height='50px'>";
+                    this.innerHTML = "<img src='images/O.png' height='50px'>";
                     this.setAttribute("jogada", player2)
                     playTime = player1;
 
